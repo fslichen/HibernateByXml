@@ -19,7 +19,7 @@ public class Application {
 		// Creating transaction.
 		Transaction transaction = session.beginTransaction();
 		Employee employee = new Employee();  
-		employee.setId(3);  
+		employee.setId(10);  
 		employee.setFirstName("Donald");  
 		employee.setLastName("Trump");  
 		session.persist(employee);// Persist the employee object.
